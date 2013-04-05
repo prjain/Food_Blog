@@ -1,15 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Sacramento);
+@import url('foundation.css');
 
 body {
     background-image:url('img/IMG_background.jpg');
-    font-family: 'Sacramento', cursive;
+    font-family: 'Calibri', cursive;
 }
-
- 
-// Same as the first example but with #ccc at the 30% from the top, and #bbb at 70% from the top  
- #v-gradient-3 {
-  @include background-image(linear-gradient(white, #cccccc 30%, #bbbbbb 70%, #aaaaaa)); }
-
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
