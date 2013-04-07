@@ -1,7 +1,6 @@
 @import url('foundation.css');
 
 body {
-    background-image:url('img/IMG_background.jpg');
     font-family: 'Calibri', cursive;
 }
 
@@ -10,5 +9,30 @@ h1, h2, h3, h4, h5, h6 {
 font-family: 'Clicker Script', cursive;
 }
 
-.crop { width: 100%; max-height: 350px; overflow: hidden ; }
-.crop img { width: 100%; height: auto; margin: 0; vertical-align: text-bottom}
+.crop { 
+	width: 100%; 
+	max-height: 350px; 
+	overflow: hidden ; 
+}
+
+.crop img { 
+	width: 100%; 
+	height: auto; 
+	margin: 0; 
+	vertical-align: text-bottom
+}
+
+.tabbed-button {
+	background: url("../img/buttons/110.gif") no-repeat;
+	padding: 5.00 em;
+	margin: 1.00 em;
+	
+}
+
+.section p {
+	height: 42px;
+}
+
+.title a:hover {
+	color: #FFFFFF;
+}

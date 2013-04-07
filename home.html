@@ -8,7 +8,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<title> Meow's Photo Blog </title>
+		<title> Meow's Blog </title>
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/user.css" />
 		<link href='http://fonts.googleapis.com/css?family=Clicker+Script' rel='stylesheet' type='text/css'>
@@ -34,31 +34,89 @@
 	<body>
 
 		<!--  ================  -->
-		<!--  = NAVIGATION BAR =  -->
+		<!--  = PAGE  HEADER =  -->
 		<!--  ================  -->
 
 		<div class="row">
 			<div class="large-12 columns">
-				<div class="nav-bar right">
-					<!-- <ul class="button-group">
-					<li>
-					<a href="#" class="">Link 1</a>
-					</li>
-					<li>
-					<a href="#" class="">Link 2</a>
-					</li>
-					<li>
-					<a href="#" class="">Link 3</a>
-					</li>
-					<li>
-					<a href="#" class="">Link 4</a>
-					</li>
-					</ul> -->
-				</div>
-				<h1>Blog &nbsp; <small class="subheader">Welcome to <a href="#"> Meow's Photography</a> !! </small></h1>
+				<h1>Blogosphere &nbsp; <small class="subheader">Welcome to <a href="#"> Meow's world</a> !! </small></h1>
 			</div>
 		</div>
 
+		<!--  ================  -->
+		<!--  = NAVIGATION BAR =  -->
+		<!--  ================  -->
+
+		<!-- <div class="row">
+		<div class="large-12 columns">
+		<div class="nav-bar ">
+		<ul class="button-group">
+		<li>
+		<a href="#" class="button">Poto-Shoto</a>
+		</li>
+		<li>
+		<a href="#" class="button">Geek Spot</a>
+		</li>
+		<li>
+		<a href="#" class="button">Food Fix</a>
+		</li>
+		<li>
+		<a href="#" class="button">Funk Zone</a>
+		</li>
+		</ul>
+		</div>
+		</div>
+		</div> -->
+
+		<div class="row">
+			<div class="large-12 columns">
+
+				<div class="section-container auto" data-section="tabs">
+
+					<section class="section">
+						<p class="title">
+							<a href="#" class="tabbed-button">Fun on One!</a>
+						</p>
+						<div class="content">
+							<p>
+								Content of section - Fun on One!.
+							</p>
+						</div>
+					</section>
+					<section class="section">
+						<p class="title">
+							<a href="#" class="tabbed-button">Meow says cheese</a>
+						</p>
+						<div class="content">
+							<p>
+								Content of section - Meow says cheese ;)
+							</p>
+						</div>
+					</section>
+					<section class="section">
+						<p class="title">
+							<a href="#" class="tabbed-button">Geek Spot</a>
+						</p>
+						<div class="content">
+							<p>
+								Content of section - Green Eyed Geek
+							</p>
+						</div>
+					</section>
+					<section class="section">
+						<p class="title">
+							<a href="#" class="tabbed-button">Food Fix</a>
+						</p>
+						<div class="content">
+							<p>
+								Content of section - Kitty Kitchen
+							</p>
+						</div>
+					</section>
+				</div>
+
+			</div>
+		</div>
 		<!-- End Nav -->
 
 		<!--  ================  -->
@@ -87,23 +145,24 @@
 				<ul data-orbit>
 					<li class="crop">
 						<img src="img/IMG_0513.jpg" />
-						<div class="orbit-caption"></div>
+						<div class="orbit-caption">
+							<blockquote>
+								Autumn is a second spring when every leaf is a flower. 
+								<cite>Albert Camus</cite>
+							</blockquote>
+						</div>
 					</li>
 					<li class="crop">
 						<img src="img/IMG_0518.jpg" />
-						<div class="orbit-caption"></div>
 					</li>
 					<li class="crop">
 						<img src="img/IMG_0561.jpg" />
-						<div class="orbit-caption"></div>
 					</li>
 					<li class="crop">
 						<img src="img/IMG_0492.jpg" />
-						<div class="orbit-caption"></div>
 					</li>
 					<li class="crop">
 						<img src="img/IMG_0479.jpg" />
-						<div class="orbit-caption"></div>
 					</li>
 				</ul>
 			</div>
@@ -256,7 +315,7 @@
 								<a href="#"><img src="img/icons/fc-webicon-flickr-s.png" /></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/icons/fc-webicon-facebook-s.png" /></a>
+								<a href="#"><img src="img/icons/cool/facebook.ai" /></a>
 							</li>
 							<li>
 								<a href="#"><img src="img/icons/fc-webicon-instagram-s.png" /></a>
@@ -317,7 +376,7 @@
 		</script>
 
 		<script>
-			$('#welcomeModal').foundation('reveal', 'open');
+			// $('#welcomeModal').foundation('reveal', 'open');
 			$('a.close-reveal-modal').trigger('click');
 		</script>
 
