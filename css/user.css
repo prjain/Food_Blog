@@ -1,32 +1,86 @@
 @import url('foundation.css');
 
 body {
-    font-family: 'Calibri', cursive;
+	font-family: 'Calibri', cursive;
+	background: #CCCCCC;
 }
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-font-family: 'Clicker Script', cursive;
+	font-family: 'Clicker Script', cursive;
+	font-weight: bolder;
 }
 
-.crop { 
-	width: 100%; 
-	max-height: 350px; 
-	overflow: hidden ; 
+#banner {
+	/*background: url("../img/buttons/110.gif") no-repeat center center fixed;
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;*/
+
+	/*gradient banner*/
+background: rgb(112,72,132); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(112,72,132,1) 0%, rgba(52,23,61,1) 49%, rgba(49,20,53,1) 50%, rgba(53,25,66,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(112,72,132,1)), color-stop(49%,rgba(52,23,61,1)), color-stop(50%,rgba(49,20,53,1)), color-stop(100%,rgba(53,25,66,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(112,72,132,1) 0%,rgba(52,23,61,1) 49%,rgba(49,20,53,1) 50%,rgba(53,25,66,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(112,72,132,1) 0%,rgba(52,23,61,1) 49%,rgba(49,20,53,1) 50%,rgba(53,25,66,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(112,72,132,1) 0%,rgba(52,23,61,1) 49%,rgba(49,20,53,1) 50%,rgba(53,25,66,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(112,72,132,1) 0%,rgba(52,23,61,1) 49%,rgba(49,20,53,1) 50%,rgba(53,25,66,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#704884', endColorstr='#351942',GradientType=0 ); /* IE6-9 */
+
+	  /*background: #492B5C;
+  background: url('linear-gradient.png') 0 0 repeat-x;
+  background: -webkit-linear-gradient(#492B5C, #320F31);
+  background:    -moz-linear-gradient(#492B5C, #320F31);
+  background:     -ms-linear-gradient(#492B5C, #320F31);
+  background:      -o-linear-gradient(#492B5C, #320F31);
+  background:         linear-gradient(#492B5C, #320F31);*/
+ 
+ 
+/*background: #320F31;
+background: #492B5C;*/
+
+
+	/*border*/
+	-webkit-box-shadow: 10px -1px 20px rgba(100, 100, 100, 0.75);
+	-moz-box-shadow: 10px -1px 20px rgba(100, 100, 100, 0.75);
+	box-shadow: 10px -1px 20px rgba(100, 100, 100, 0.75);
+	
+	/*padding*/
+	/*padding-top: 10px;*/
 }
 
-.crop img { 
-	width: 100%; 
-	height: auto; 
-	margin: 0; 
-	vertical-align: text-bottom
+#banner h1
+ {
+	/*color: #8794c4;	*/
+	color: #CCCCCC;
+	font-weight: bolder;
+	margin: 10px 50px 10px 50px;
+}
+
+h1 .subheader {
+	color: #AAAAAA;
+	font-weight: lighter;
+}
+
+.crop {
+	width: 100%;
+	max-height: 350px;
+	overflow: hidden;
+}
+
+.crop img {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	vertical-align: text-bottom;
 }
 
 .tabbed-button {
 	background: url("../img/buttons/110.gif") no-repeat;
 	padding: 5.00 em;
 	margin: 1.00 em;
-	
+	width: 100%;
 }
 
 .section p {
@@ -35,4 +89,28 @@ font-family: 'Clicker Script', cursive;
 
 .title a:hover {
 	color: #FFFFFF;
+}
+
+.content-box {
+	-webkit-box-shadow: 9px 5px 30px rgba(100, 100, 100, 0.75);
+	-moz-box-shadow: 9px 5px 30px rgba(100, 100, 100, 0.75);
+	box-shadow: 9px 5px 30px rgba(100, 100, 100, 0.75);
+	padding: 30px 0px 30px 0px;
+	background: white;
+}
+
+img {
+	-webkit-box-shadow: 9px 5px 20px rgba(100, 100, 100, 0.75);
+	-moz-box-shadow: 9px 5px 20px rgba(100, 100, 100, 0.75);
+	box-shadow: 9px 5px 20px rgba(100, 100, 100, 0.75);
+	margin-bottom: 10px;
+}
+
+div.orbit {
+	background-color: #000000;
+	color: white;
+	padding: 15px 0 0 0;
+	-webkit-box-shadow: 10px -1px 20px rgba(100, 100, 100, 0.75);
+	-moz-box-shadow: 10px -1px 20px rgba(100, 100, 100, 0.75);
+	box-shadow: 10px -1px 20px rgba(100, 100, 100, 0.75);
 }
